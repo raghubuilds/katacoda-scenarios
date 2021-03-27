@@ -6,4 +6,4 @@ Make a directory for our container to run, and enter into it
 `mkdir fish-container && cd fish-container`{{execute}}
 
 Unpack our tar file into this directory
-`tar -xvzf . ./fish.tar`{{execute}}
+`tar -xf fish.tar -C ./fish-container`{{execute}}
